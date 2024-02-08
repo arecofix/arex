@@ -1,0 +1,45 @@
+[03-Feb-2024 23:47:56 America/El_Salvador] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ezequi69_arex'@'cva12.toservers.com' (using password: YES) in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php:20
+Stack trace:
+#0 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(20): PDO->__construct()
+#1 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(28): app\models\mainModel->conectar()
+#2 /home/ezequi69/public_html/Dashboard/app/controllers/loginController.php(45): app\models\mainModel->ejecutarConsulta()
+#3 /home/ezequi69/public_html/Dashboard/app/views/content/login-view.php(11): app\controllers\loginController->iniciarSesionControlador()
+#4 /home/ezequi69/public_html/Dashboard/index.php(33): require_once('/home/ezequi69/...')
+#5 {main}
+  thrown in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php on line 20
+[03-Feb-2024 23:48:08 America/El_Salvador] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ezequi69_arex'@'cva12.toservers.com' (using password: YES) in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php:20
+Stack trace:
+#0 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(20): PDO->__construct()
+#1 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(28): app\models\mainModel->conectar()
+#2 /home/ezequi69/public_html/Dashboard/app/controllers/loginController.php(45): app\models\mainModel->ejecutarConsulta()
+#3 /home/ezequi69/public_html/Dashboard/app/views/content/login-view.php(11): app\controllers\loginController->iniciarSesionControlador()
+#4 /home/ezequi69/public_html/Dashboard/index.php(33): require_once('/home/ezequi69/...')
+#5 {main}
+  thrown in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php on line 20
+[03-Feb-2024 23:48:20 America/El_Salvador] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ezequi69_arex'@'cva12.toservers.com' (using password: YES) in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php:20
+Stack trace:
+#0 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(20): PDO->__construct()
+#1 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(28): app\models\mainModel->conectar()
+#2 /home/ezequi69/public_html/Dashboard/app/controllers/loginController.php(45): app\models\mainModel->ejecutarConsulta()
+#3 /home/ezequi69/public_html/Dashboard/app/views/content/login-view.php(11): app\controllers\loginController->iniciarSesionControlador()
+#4 /home/ezequi69/public_html/Dashboard/index.php(33): require_once('/home/ezequi69/...')
+#5 {main}
+  thrown in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php on line 20
+[03-Feb-2024 23:48:29 America/El_Salvador] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ezequi69_arex'@'cva12.toservers.com' (using password: YES) in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php:20
+Stack trace:
+#0 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(20): PDO->__construct()
+#1 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(28): app\models\mainModel->conectar()
+#2 /home/ezequi69/public_html/Dashboard/app/controllers/loginController.php(45): app\models\mainModel->ejecutarConsulta()
+#3 /home/ezequi69/public_html/Dashboard/app/views/content/login-view.php(11): app\controllers\loginController->iniciarSesionControlador()
+#4 /home/ezequi69/public_html/Dashboard/index.php(33): require_once('/home/ezequi69/...')
+#5 {main}
+  thrown in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php on line 20
+[04-Feb-2024 15:26:26 America/El_Salvador] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ezequi69_arex'@'cva12.toservers.com' (using password: YES) in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php:20
+Stack trace:
+#0 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(20): PDO->__construct()
+#1 /home/ezequi69/public_html/Dashboard/app/models/mainModel.php(28): app\models\mainModel->conectar()
+#2 /home/ezequi69/public_html/Dashboard/app/controllers/loginController.php(45): app\models\mainModel->ejecutarConsulta()
+#3 /home/ezequi69/public_html/Dashboard/app/views/content/login-view.php(11): app\controllers\loginController->iniciarSesionControlador()
+#4 /home/ezequi69/public_html/Dashboard/index.php(33): require_once('/home/ezequi69/...')
+#5 {main}
+  thrown in /home/ezequi69/public_html/Dashboard/app/models/mainModel.php on line 20
