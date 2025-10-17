@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "build/frontstore/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "build/admin/**/*", 
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/build/frontstore/assets/$1"
+    },
+    {
+      "src": "/admin/assets/(.*)",
+      "dest": "/build/admin/assets/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/build/frontstore/favicon.ico"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/build/server/index.js"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build/frontstore",
+  "installCommand": "npm install"
+}

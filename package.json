@@ -7,10 +7,12 @@
     "setup": "evershop install",
     "start": "evershop start",
     "build": "evershop build",
-    "dev": "evershop dev"
+    "dev": "evershop dev",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
-    "@evershop/evershop": "2.0.1"
+    "@evershop/evershop": "2.0.1",
+    "@supabase/supabase-js": "^2.75.0"
   },
   "devDependencies": {
     "@parcel/watcher": "2.5.1",
